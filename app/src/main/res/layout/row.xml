@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#08DDEF"
+        android:text="UV"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/red"/>
+
+    <TextView
+        android:id="@+id/textViewValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#01ACDF"
+        android:text="Value"
+        />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ACC1"
+        android:text="Timestamp" />
+</LinearLayout>

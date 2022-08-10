@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">UVI PS</string>
+    <string-array name="values">
+        <item>Show all UVI</item>
+    </string-array>
 </resources>
